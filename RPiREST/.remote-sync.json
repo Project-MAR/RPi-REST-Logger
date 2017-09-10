@@ -1,0 +1,16 @@
+{
+  "transport": "scp",
+  "hostname": "192.168.1.19",
+  "port": 22,
+  "username": "pi",
+  "password": "raspberry",
+  "target": "/home/pi/basicREST/",
+  "uploadOnSave": true,
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch":[
+    "/REST_Server.py"
+  ]
+}
